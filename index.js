@@ -1,9 +1,10 @@
 // We need to require any libraries we want to use.
-var express = require("express");
-var request = require("request");
+var express = require("express"),
+    request = require("request"),
+    app = express();
 
-// Express requires that we instantiate an app.
-var app = express();
+// Set EJS as the view engine
+app.set("view engine", "ejs");
 
 // Create a handler to respond to GET requests
 // to our home page ("/").
