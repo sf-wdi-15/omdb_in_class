@@ -21,10 +21,6 @@ http://www.omdbapi.com/ for movies matching the search term.
   another .ejs template.
 
 
-## Lab
-
-To be continued...
-
 ## Links
 
 - http://omdbapi.com/
