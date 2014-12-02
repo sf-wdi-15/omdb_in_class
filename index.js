@@ -37,8 +37,4 @@ app.get('/search', function(req, res){
   });
 });
 
-<<<<<<< HEAD
 app.listen(3000);
-=======
-app.listen(8080);
->>>>>>> a225c0112ed8ac37e9fd1b10cf9577bb6fd5858c
